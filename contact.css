@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-group {
+    backgroud-color: #fff;
+    padding: 3rem 2rem;
+    box-shadow:0 0 30px rgba(0,0,0,0.2);
+    border-radius: 8px;
+   
+  }
+  
+  .section-group h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+   
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  .section-group h2:hover{
+    color: #28d1f7;
+    border: 2px;
+    border-style: solid;
+    border-color: #28f7e7;
+    border-radius: 6px;
+    padding: 2px;
+  }
+.section-group input, .section-group textarea {
+    border-radius: 4px;
+    border: 2px solid #3498db;
+    padding: 0.5rem;
+    margin-bottom: 1 rem;
+    margin-left: 35px;
+    /* border: 2px solid red; */
+  }
+  
+  .section-group button{
+    background-color: #3498db;
+    color:whitesmoke ;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    transition: background-color 1.5s ease;
+  }
+  
+  .section-group button:hover {
+    background-color: green
+  }
+.sendbtn{
+    display: flex;
+    justify-content: left;
+    margin-left: 45px;
+    padding: 20px;
+     
+  }
+  
+  #your-name, #your-email {
+    margin-left: 118px;
+    /* padding:  40px 20px ; */
+    /* border: 2px solid red; */
+  }
+  
+.form-row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; 
+  }
+  label{
+    font-size: 25px;
+    color: #3498db;
+  }
