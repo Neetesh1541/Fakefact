@@ -1,4 +1,4 @@
-# 🛡️ FakeFact - Your Ultimate Cyber Safety AI
+# 🛡️ FakeFact - Your Ultimate Cyber Safety AI.. 
 
 FakeFact is a powerful desktop application built with Python and Gemini AI that helps users detect scams, phishing messages, deepfake media, and fake news — all in one place. With a clean interface powered by `Tkinter` and `ttkbootstrap`, FakeFact provides instant AI-powered analysis to help users stay safe online.
 
