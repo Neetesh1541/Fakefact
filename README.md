@@ -1,49 +1,71 @@
-# 🛡️ FakeFact — AI Cyber Safety Assistant
+# 🛡️ FakeFact
 
-FakeFact is a Python desktop application that combines **Google Gemini AI** and computer-vision tools to help users analyze suspicious digital content and learn safer online practices.
+> **AI-powered cyber safety assistant for analyzing suspicious digital content.**
 
-## ✨ Features
+FakeFact is a Python desktop application that combines **Google Gemini AI** with computer-vision and text-analysis tools to help users inspect potentially suspicious digital content and make safer decisions online.
 
-- 📱 SMS spam & phishing analysis
-- 📰 AI-assisted news fact checking
-- 📧 Suspicious email-pattern analysis
-- 🔗 URL safety & phishing indicators
-- 🖼️ Image deepfake analysis
-- 🎬 Video-frame deepfake analysis
-- 🤖 AI-powered cyber safety assistant
-- 📚 Built-in safety resources and guidance
+## ✨ What It Can Do
 
-## 🛠️ Tech Stack
+- 📱 Analyze SMS messages for spam and phishing indicators
+- 📰 Assist with news and claim fact-checking
+- 📧 Identify suspicious patterns in emails
+- 🔗 Inspect URLs for phishing and safety indicators
+- 🖼️ Analyze images for potential deepfake signals
+- 🎬 Analyze video frames for potential manipulation
+- 🤖 Provide AI-assisted cyber-safety guidance
+- 📚 Offer built-in safety resources
 
-| Area | Technology |
+## 🧰 Tech Stack
+
+| Category | Technology |
 |---|---|
 | Language | Python 3.9+ |
-| UI | Tkinter, ttkbootstrap |
+| Desktop UI | Tkinter, ttkbootstrap |
 | AI | Google Gemini |
 | Computer Vision | OpenCV, Pillow |
 | Text Analysis | language-tool-python |
 
 ## 🚀 Getting Started
 
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/Neetesh1541/Fakefact.git
 cd Fakefact
+```
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-Configure the required Gemini API credentials, then run the project's main Python entry point.
+### 3. Configure the API
+
+Add the required **Google Gemini API credentials** using the configuration expected by the project.
+
+### 4. Run the application
+
+Launch the project's main Python entry point.
+
+## 🧠 How It Works
+
+FakeFact combines rule-based indicators, AI-assisted analysis, and media-processing utilities to produce understandable safety signals. The goal is to help users investigate suspicious content—not to replace professional verification.
 
 ## 🔐 Safety Disclaimer
 
-FakeFact is an **assistive analysis tool**, not a forensic or legal verification system. AI-generated results are indicators and should be independently verified before taking important action.
+FakeFact is an **assistive analysis tool**, not a forensic, legal, or definitive verification system. AI-generated results may be incorrect or incomplete. Always independently verify important claims before taking action.
 
 ## 🗺️ Roadmap
 
-- Batch analysis for multiple messages and URLs
-- More explainable detection results
-- Scan history and exportable reports
-- Support for additional media-analysis models
+- [ ] Batch analysis for messages and URLs
+- [ ] More explainable detection results
+- [ ] Scan history and exportable reports
+- [ ] Additional media-analysis models
+- [ ] Improved result confidence and evidence presentation
 
 ## 👨‍💻 Author
 
 Built by **Neetesh Sharma**.
+
+If you find FakeFact useful, feel free to explore the project and contribute ideas or improvements.
